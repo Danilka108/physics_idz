@@ -98,7 +98,7 @@ class Model:
         ax.bar_label(bar, label_type="center")
         plt.show()
 
-    # Рассчитать траектории нейтронов
+    # Рассчитать вероятности
     def calc_probabilities(self):
         # проходимся по траекториям нейтронов
         for number_of_trajectory in range(self._number_of_trajectories):
